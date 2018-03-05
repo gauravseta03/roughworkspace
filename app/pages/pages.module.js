@@ -1,0 +1,1 @@
+angular.module('mainApp.pages',['loginModule','logoutModule']);
