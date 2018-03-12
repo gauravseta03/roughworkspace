@@ -22,7 +22,9 @@
   "dependencies": {
     "@uirouter/angularjs": "^1.0.15",
     "angular": "^1.6.9",
+    "angular-summernote": "^0.8.1",
     "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "summernote": "^0.8.10"
   }
 }

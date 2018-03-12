@@ -1,16 +1,25 @@
 <!doctype html>
 <html lang="en" ng-app="mainApp">
   <head>
+      <link rel="stylesheet" href="./node_modules/summernote/dist/summernote.css" />
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
+
+ 
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script src="./node_modules/angular/angular.js"></script>
       <script src="./node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
-      
+      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="./node_modules/summernote/dist/summernote.js"></script>
+<script src="./node_modules/angular-summernote/dist/angular-summernote.js"></script>
 </head>
 <body>
     
     <div>Traverse different states
     </div>
+    
     <a ui-sref="login">Go to login state</a>
     <a ui-sref="logout">Go to logout state</a>
+    
     <ui-view></ui-view>
    
     <script src="app.module.js"></script>
