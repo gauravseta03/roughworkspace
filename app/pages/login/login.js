@@ -4,4 +4,6 @@ controller('loginController',function($scope){
     $scope.keyup=function(event){
         console.log('key released');
     }
+    $scope.format='M/d/yyyy hh:mm:ss a';
+    //$scope.lllll = 'vvv';
 });

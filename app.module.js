@@ -1,1 +1,1 @@
-angular.module('mainApp',['ui.router','mainApp.pages','summernote']);
+angular.module('mainApp',['ui.router','mainApp.pages','mainApp.directives','summernote']);
