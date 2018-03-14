@@ -16,8 +16,19 @@ angular.module('mainApp')
             controller: 'logoutController',
             data: {
                 applicationUserFunction: "DASHBOARD",
+            },
+            resolve :{
+                data1:function($state){
+                    console.log('inside logout resolve');
+                    $state.go('login');
+                }
             }
-        });
+        })
+        .state('logout.ad1',{
+            url:"/ad1",
+            templateUrl: "app/pages/logout/logoutad1.html",
+            controller: 'logoutAd1Controller'
+        })
     }).directive('myCustomer',function(){
         return {
             template: 'nnfdnfsdujn{{aray1}}',
